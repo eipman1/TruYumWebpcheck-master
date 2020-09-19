@@ -30,6 +30,4 @@ spec:
   ports:
   - port: 80
   selector:
-    app: TruYum
-   
-    
+    app: TruYum 

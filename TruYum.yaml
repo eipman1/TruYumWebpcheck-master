@@ -31,3 +31,7 @@ spec:
   - port: 80
   selector:
     app: TruYum
+    - task: PublishBuildArtifacts@1    
+  displayName: 'Publish Artifact: drop'
+  inputs:
+    PathtoPublish: '$(build.artifactstagingdirectory)'

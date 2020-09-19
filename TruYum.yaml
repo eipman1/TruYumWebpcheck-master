@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: truyumrepos
-        image: trumyumcr.azurecr.io/truyumrepos:latest
+        image: 856733cr.azurecr.io/truyumrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -31,4 +31,3 @@ spec:
   - port: 80
   selector:
     app: TruYum 
-- task: PublishBuildArtifacts@1
